@@ -1,7 +1,8 @@
 main {
-  font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'GNU Unifont', Verdana, Helvetica, sans-serif;;
-  margin: 10%;
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'GNU Unifont', Verdana, Helvetica, sans-serif;
+  margin: 3% 8%;
   line-height: 1.6;
+  font-size: 85%;
 }
 
 h2, h3 {
@@ -35,7 +36,6 @@ ul {
 }
 
 .tags li {
-  
   padding-right: .5em;
 }
 
@@ -63,10 +63,6 @@ dd {
 dl.stats dd {
   white-space: nowrap;
   padding-right: .5em;
-}
-
-dd .stats {
-  padding-bottom: 6em;
 }
 
 /* Body text */
@@ -470,4 +466,13 @@ form dd.required {
 .event.announcement .userstuff a,
 .filters .expander {
   color: #eee;
+}
+
+/* Styles for wider screens */
+@media only screen and (min-width: 768px) {
+  main {
+    margin: 3% 15%;
+    line-height: 1.6;
+    font-size: 100%;
+  }
 }
