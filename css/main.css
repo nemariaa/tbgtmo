@@ -1,8 +1,8 @@
 main {
   font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'GNU Unifont', Verdana, Helvetica, sans-serif;
-  margin: 3% 8%;
-  line-height: 1.6;
-  font-size: 85%;
+  margin: 5%;
+  line-height: 1.5;
+  font-size: 80%;
 }
 
 h2, h3 {
@@ -75,6 +75,15 @@ dl.stats dd {
 
 /* Body text */
 
+h2 {
+  font-size: 2.143em;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.4em;
+}
+
 .title {
   text-align: center;
   margin-top: 5em;
@@ -89,15 +98,7 @@ dl.stats dd {
 .byline {
   text-align: center;
   margin-top: -1em;
-}
-
-h2 {
-  font-size: 2.143em;
-  text-align: center;
-}
-
-h3 {
-  font-size: 1.4em;
+  font-size: 1.3em;
 }
 
 .landmark {
