@@ -13,6 +13,7 @@ h2, h3 {
 
 .wrapper {
   padding: 2em;
+  overflow: hidden;
 }
 
 ul {
