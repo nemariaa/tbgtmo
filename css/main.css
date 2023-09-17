@@ -13,7 +13,7 @@ h2, h3 {
 /* Tags box */
 
 .wrapper {
-  padding: 2em;
+  padding: 1em;
   overflow: hidden;
 }
 
@@ -58,6 +58,7 @@ a.tag {
 dd {
   background: 0 0;
   margin-bottom: 0.643em;
+  margin-left: 1.2em;
 }
 
 .meta .stats dl dd, .meta .stats dl dt {
