@@ -39,6 +39,14 @@ ul {
   padding-right: .5em;
 }
 
+.tags li:after {
+  content: ", ";
+}
+
+.tags li:last-child:after {
+  content: " ";
+}
+
 a.tag {
   color: #111;
   line-height: 1.5;
